@@ -1,0 +1,97 @@
+body {
+	background-color: ghostwhite;
+}
+
+.menu {	
+	background-color: floralwhite;
+	border: 1px solid red;
+	list-style-type: none;
+	padding: 10px;
+	width: auto;
+	margin: 0px auto 20px;
+}
+
+.menu-item {
+	margin: 0px auto 10px;
+	text-align: center;
+	width: 200px;
+}
+
+table {
+	margin: auto;
+	border: 1px solid black;
+}
+
+td {
+	border: 1px outset black;	
+	text-align: center;
+	font-weight: bold;
+	font-family: 'tahoma';
+	width: 20px;
+	height: 20px;
+	background-color: lightgray;	
+}
+
+.hidden-cell:hover {
+	background-color: crimson;
+}
+
+.one-mines {
+	color: blue;
+}
+
+.two-mines {
+	color: green;
+}
+
+.three-mines {
+	color: red;
+}
+
+.four-mines {
+	color: darkblue;
+}
+
+.five-mines {
+	color: darkred;
+}
+
+.six-mines {
+	color: darkcyan;
+}
+
+.seven-mines {
+	color: black;
+}
+
+.eight-mines {
+	color: darkgray;
+}
+
+.revealed-cell {
+	background-color: #BFBFBF;
+}
+
+.marked-as-mine {
+	border: 1px solid red;
+}
+
+/* Little bit of a hack */
+.marked-as-mine:after {
+	content: "M";
+}
+
+.wrong-mine-mark {
+	color: black;
+	background-color: red;
+}
+
+.on-win {
+	border: 10px solid lightgreen;
+	/*background-color: lightgreen;*/
+}
+
+.on-loss {
+	border: 10px solid lightcoral;
+	/*background-color: lightcoral;*/
+}
